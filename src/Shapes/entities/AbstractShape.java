@@ -6,4 +6,8 @@ public abstract class AbstractShape implements Shape{
     public AbstractShape(COLOR color){
         this.color = color;
     }
+
+    public COLOR getColor() {
+        return color;
+    }
 }

@@ -1,6 +1,6 @@
 package Shapes.entities;
 
-public class Circle extends AbstractShape {
+public class Circle  extends AbstractShape{
     private Double radius;
     private static Double PI = 3.14;
 
