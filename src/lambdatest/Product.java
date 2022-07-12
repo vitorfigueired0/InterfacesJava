@@ -1,4 +1,4 @@
-package test;
+package lambdatest;
 
 public class Product {
     private String name;

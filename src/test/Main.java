@@ -23,9 +23,8 @@ public class Main {
             products.add(new Product(name, price));
         }
 
-        Comparator<Product> compare = (p1, p2) -> p1.getName().compareTo(p2.getName());
-        products.sort(compare);
         for(Product p : products){
+            p.addPercent();
             System.out.println(p);
         }
     }
