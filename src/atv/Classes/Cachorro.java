@@ -5,6 +5,8 @@ import atv.Abstract.Mamifero;
 import atv.Interfaces.AnimalDeEstimação;
 import atv.Interfaces.AnimalDomesticado;
 
+import java.util.Objects;
+
 
 public class Cachorro extends Mamifero implements AnimalDomesticado, AnimalDeEstimação {
     private String raça;
@@ -51,4 +53,5 @@ public class Cachorro extends Mamifero implements AnimalDomesticado, AnimalDeEst
     public void chamarVeterinario() {
 
     }
+
 }
